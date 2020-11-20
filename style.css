@@ -59,6 +59,7 @@ body{
 
 .group:nth-child(1){
     min-height: 19rem;
+    margin-bottom: 10px;
 }
 
 .instagram-logo {
@@ -76,4 +77,55 @@ body{
 
 .profile-photo img {
     height: 6rem;
+}
+
+.instagram-login {
+    background-color: #0095e6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095e6;
+    margin-top: 1rem;
+}
+
+.not-accout {
+    color: rgb(160, 160, 160);
+}
+
+.link-blue {
+    color: #0095e6
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+background-image: url(./img/button-apple.png);
+}
+
+.app-download:nth-child(2) {
+    background-image: url(./img/button-android.png);
 }
